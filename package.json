@@ -1,0 +1,29 @@
+{
+  "name": "action-nx-affected-projects-and-deps",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "GitHub action",
+  "main": "index.js",
+  "scripts": {
+    "format:all": "prettier --write",
+    "prepare": "husky || true",
+    "spell:check": "cspell lint --dot --show-suggestions --no-progress --no-must-find-files --config ./.cspell.json",
+    "spell:search:dict": "cspell trace --all --config ./.cspell.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfandy1982/action-nx-affected-projects-and-deps.git"
+  },
+  "author": "Andreas Ziegler (dev@andreasziegler.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfandy1982/action-nx-affected-projects-and-deps/issues"
+  },
+  "homepage": "https://github.com/jfandy1982/action-nx-affected-projects-and-deps#readme",
+  "devDependencies": {
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0",
+    "cspell": "^8.0.0",
+    "@cspell/dict-de-de": "^4.0.0"
+  }
+}
