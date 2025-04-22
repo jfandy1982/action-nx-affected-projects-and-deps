@@ -1,0 +1,3 @@
+echo ""
+echo "Invoke lint-staged tasks..."
+#npx lint-staged --relative --concurrent false
